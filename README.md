@@ -37,4 +37,11 @@ When the system is powered ON:
 
 
 
+🔹 Idle State
+ The system remains idle, continuously waiting for a voter’s RFID card and displays ‘Waiting for Card…’ on the LCD.
+ <img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/b61fcec8-d66a-4178-9a51-095ce1e54763" />
 
+
+
+
+ 
