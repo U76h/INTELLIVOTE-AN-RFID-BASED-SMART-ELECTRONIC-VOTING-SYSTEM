@@ -62,5 +62,25 @@ if any of the validation checks fail (invalid ID, outside allowed voting time, o
 - Voting period has ended → “Voting time over”
 - Voting not authorized by officer → “Voting not enabled by officer”
 
+🔹 Voting Process
+
+- Voter selects an option and enters the Pin (hidden using *).
+- If the pin is correct:
+- Party selection menu is displayed.
+- <img width="2048" height="1168" alt="image" src="https://github.com/user-attachments/assets/8b481f69-28ae-485c-a159-6760c3e84de7" />
+
+- After the voter casts the vote using the keypad, the system displays the message: ‘Vote Casted Successfully’, as shown in the figure.
+  <img width="2044" height="1170" alt="image" src="https://github.com/user-attachments/assets/11809f94-3051-4b24-8cfe-bfceff65b073" />
+
+- The selected party’s vote count is incremented and stored in EEPROM.
+- Buzzer turns ON.
+  
+- If the password is incorrect:
+- Red LED turns ON.
+- Error message is displayed on the LCD.
+   
+
+  
+
 
  
