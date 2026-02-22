@@ -41,7 +41,25 @@ When the system is powered ON:
  - The system remains idle, continuously waiting for a voter’s RFID card and displays ‘Waiting for Card…’ on the LCD.
  <img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/b61fcec8-d66a-4178-9a51-095ce1e54763" />
 
+ 🔹 Voting Time Validation 
 
+- Whenever a voter card is detected by the RFID reader, the system first checks the database (EEPROM) to see if the voter ID exists.
+- If the ID is valid, the system then performs the following checks:
+- Voting time: Verifies the current time from the RTC to ensure it is within the allowed voting period.
+- Voting authorization: Confirms that the officer has enabled the voting authority flag.
+- If all checks are valid (voter ID exists, within allowed time, voting authority enabled):
+  The voter is allowed to vote by entering their respective PIN on the keypad.
+  Alternatively, the voter may choose to:
+- Edit PIN
+- Exit without voting
+  <img width="2527" height="1168" alt="image" src="https://github.com/user-attachments/assets/869b65e2-9bfb-45e9-bba0-6510c87fd8a2" />
+
+
+if any of the validation checks fail (invalid ID, outside allowed voting time, or voting not authorized), the system displays an appropriate message on the LCD based on the failure reason:
+-Voter ID does not exist → “Voter ID not found in database”
+-Voting has not started yet → “Voting has not started”
+-Voting period has ended → “Voting time over”
+-Voting not authorized by officer → “Voting not enabled by officer”
 
 
  
