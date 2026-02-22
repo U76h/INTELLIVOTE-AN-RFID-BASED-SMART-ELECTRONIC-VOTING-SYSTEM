@@ -10,4 +10,4 @@ void EEPROM_Init_Votes(void);
 void syncing_EEPROM_Write_Default_Config(void);
 
 
-//void Read_prestored_password_(void);//just for 24c02 ceeprom checking
+
