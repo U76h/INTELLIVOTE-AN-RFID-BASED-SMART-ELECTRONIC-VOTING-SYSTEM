@@ -7,7 +7,7 @@ This project presents a secure and efficient RFID-based voting system developed 
 The system integrates multiple hardware modules such as RFID reader, RTC, EEPROM, LCD, and keypad to create a real-time voting environment. It also includes a separate control mechanism for the election officer to manage voting operations like start, stop, result viewing, and system reset.
 
 
-
+ 
 🛠️ Hardware Requirements:
 
 The following components are used in this project:
