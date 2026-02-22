@@ -6,20 +6,23 @@ This project presents a secure and efficient RFID-based voting system developed 
 
 The system integrates multiple hardware modules such as RFID reader, RTC, EEPROM, LCD, and keypad to create a real-time voting environment. It also includes a separate control mechanism for the election officer to manage voting operations like start, stop, result viewing, and system reset.
 
+
+
 🛠️ Hardware Requirements:
 
 The following components are used in this project:
+- Microcontroller (LPC2148)
+- RFID Reader Module
+- RFID Tags (for voters and officer)
+- LCD Display (20x4)
+- Matrix Keypad (4x4)
+- I2C EEPROM (AT24C256)
+- RTC Module (Real Time Clock)
+- LEDs (Red & Green)
+- Buzzer (Optional)
+- Power Supply Unit
 
---> Microcontroller (LPC2148)
--->RFID Reader Module 
--->RFID Tags (for voters and officer)
--->LCD Display (20X4)
--->Matrix Keypad(4X4)
---> I2C EEPROM(AT24C256) 
--->RTC Module (Real Time Clock)
--->LEDs (Red & Green)
--->Buzzer (optional)
--->Power Supply Unit
+  
 
 ⚙️ Working Principle :
 
