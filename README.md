@@ -39,8 +39,9 @@ When the system is powered ON:
 
 🔹 Idle State
  - The system remains idle, continuously waiting for a voter’s RFID card and displays ‘Waiting for Card…’ on the LCD.
- <img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/b61fcec8-d66a-4178-9a51-095ce1e54763" />
+   <img width="1938" height="1065" alt="image" src="https://github.com/user-attachments/assets/b303b25c-71ea-47ac-b0b3-6747f088c78b" />
 
+ 
  🔹 Voting Time Validation 
 
 - Whenever a voter card is detected by the RFID reader, the system first checks the database (EEPROM) to see if the voter ID exists.
