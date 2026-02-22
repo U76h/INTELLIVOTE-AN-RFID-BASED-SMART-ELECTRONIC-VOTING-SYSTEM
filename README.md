@@ -27,12 +27,14 @@ The following components are used in this project:
 ⚙️ Working Principle :
 
 🔹 System Initialization
-
 When the system is powered ON:
-- All peripherals (LCD, Keypad, UART, EEPROM, I2C, RTC) are initialized.
-- Project title is displayed on LCD.
-- The system reads the current date and time from the RTC to ensure that the clock is functioning properly.
+- All peripherals (LCD, Keypad, UART, EEPROM, I2C, RTC) are initialized
+- Project title is displayed on LCD
+- The system reads the current date and time from the RTC to ensure that the clock is functioning properly,as shown in the image below
+  
 ![IMG_0020](https://github.com/user-attachments/assets/8bae88e4-bb1f-4cd0-9ea3-6fc5a4517e41)
+![IMG_9926 (1)](https://github.com/user-attachments/assets/09a82baa-6bd9-4ae3-b5c2-5c8207fa811c)
+
 
 
 
