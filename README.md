@@ -32,6 +32,7 @@ When the system is powered ON:
 - All peripherals (LCD, Keypad, UART, EEPROM, I2C, RTC) are initialized.
 - Project title is displayed on LCD.
 - The system reads the current date and time from the RTC to ensure that the clock is functioning properly.
-<img width="1170" height="2004" alt="image" src="https://github.com/user-attachments/assets/47f338cd-9df9-4e5d-909d-2ef114df18c8" />
+![IMG_0020](https://github.com/user-attachments/assets/8bae88e4-bb1f-4cd0-9ea3-6fc5a4517e41)
+
 
 
