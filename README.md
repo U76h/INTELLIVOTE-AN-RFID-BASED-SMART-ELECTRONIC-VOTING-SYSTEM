@@ -57,10 +57,10 @@ When the system is powered ON:
 
 
 if any of the validation checks fail (invalid ID, outside allowed voting time, or voting not authorized), the system displays an appropriate message on the LCD based on the failure reason:
--Voter ID does not exist → “Voter ID not found in database”
--Voting has not started yet → “Voting has not started”
--Voting period has ended → “Voting time over”
--Voting not authorized by officer → “Voting not enabled by officer”
+- Voter ID does not exist → “Voter ID not found in database”
+- Voting has not started yet → “Voting has not started”
+- Voting period has ended → “Voting time over”
+- Voting not authorized by officer → “Voting not enabled by officer”
 
 
  
