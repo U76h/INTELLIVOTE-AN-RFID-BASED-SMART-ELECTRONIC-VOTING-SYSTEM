@@ -73,11 +73,37 @@ if any of the validation checks fail (invalid ID, outside allowed voting time, o
   <img width="2044" height="1170" alt="image" src="https://github.com/user-attachments/assets/11809f94-3051-4b24-8cfe-bfceff65b073" />
 
 - The selected party’s vote count is incremented and stored in EEPROM.
-- Buzzer turns ON.
+- Buzzer turns ON for a short duration.
   
 - If the password is incorrect:
 - Red LED turns ON.
 - Error message is displayed on the LCD.
+- And again, the system will display 'Waiting for card' to record the next vote.
+- this is how the system works.
+
+🧑‍💼 𝐄𝐋𝐄𝐂𝐓𝐈𝐎𝐍 𝐎𝐅𝐅𝐈𝐂𝐄𝐑 𝐌𝐎𝐃𝐄
+
+- A separate RFID card is assigned to the Election Officer.
+- The Officer Mode is activated through an external interrupt.
+- Whenever the interrupt is triggered, the system enters officer mode request.
+
+Once activated:
+- The LCD displays "Waiting for Officer Card".
+- All voter cards are ignored during this process.
+- When a valid officer card is detected:
+- The system prompts the officer to enter the PIN for authentication.
+  After successful verification:
+- The Officer Menu is displayed on the LCD as follows,
+  Due to the limited display capacity of the LCD module, the menu items are designed to be concise while maintaining clarity and functionality.
+1. SET VOTING TIME
+2. START VOTING
+3. STOP VOTING
+4. VIEW RESULT
+5. RESET VOTING
+6. RTC EDIT
+7. EXIT
+
+   
    
 
   
