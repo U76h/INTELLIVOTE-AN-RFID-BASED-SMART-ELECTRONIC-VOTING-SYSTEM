@@ -127,10 +127,10 @@ Once activated:
 
   💻 SOFTWARE REQUIREMENTS
 
-➤ Embedded C
-➤ Keil IDE
-➤ Proteus (Optional – for simulation)
-➤ Flashing Tool (Programmer)
+- Embedded C
+- Keil IDE
+- Proteus (Optional – for simulation)
+- Flashing Tool (Programmer)
 
 🚀 ADVANTAGES
 
@@ -143,9 +143,9 @@ Once activated:
 
 📌 APPLICATIONS
 
-➤ College Elections
-➤ Government Polling Systems
-➤ Smart Polling Booths
+- College Elections
+- Government Polling Systems
+- Smart Polling Booths
 
   
  
