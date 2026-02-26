@@ -89,11 +89,16 @@ if any of the validation checks fail (invalid ID, outside allowed voting time, o
 
 Once activated:
 - The LCD displays "Waiting for Officer Card".
+  <img width="1943" height="1170" alt="image" src="https://github.com/user-attachments/assets/92c747c9-2964-4a7e-aa31-f1a672a08b62" />
+
 - All voter cards are ignored during this process.
 - When a valid officer card is detected:
 - The system prompts the officer to enter the PIN for authentication.
   After successful verification:
 - The Officer Menu is displayed on the LCD as follows,
+<img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/a00b2f0f-320a-4df8-b398-f556708abaaf" />
+
+
   Due to the limited display capacity of the LCD module, the menu items are designed to be concise while maintaining clarity and functionality.
 1. SET VOTING TIME
 2. START VOTING
@@ -103,6 +108,49 @@ Once activated:
 6. RTC EDIT
 7. EXIT
 
+- SET VOTING TIME – Allows the officer to configure the start and end time of voting, which is stored in EEPROM for validation.
+
+- START VOTING – Enables the voting process by setting the voting flag in EEPROM after successful password authentication.
+
+- STOP VOTING – Disables the voting process by clearing the voting flag in EEPROM after verifying the officer password.
+
+- VIEW RESULT – Displays the current vote count of all parties by reading stored data from EEPROM after password verification.
+
+- RESET VOTING – Clears all vote counts and resets the voting status in EEPROM after successful officer authentication.
+
+- RTC EDIT – Allows the officer to update the current date and time in the RTC module using the keypad.
+
+- EXIT – Returns the system from officer menu back to the waiting-for-card state.
+
+- These all above operations are performed using keypad...
+
+
+  💻 SOFTWARE REQUIREMENTS
+
+➤ Embedded C
+➤ Keil IDE
+➤ Proteus (Optional – for simulation)
+➤ Flashing Tool (Programmer)
+
+🚀 ADVANTAGES
+
+✔ Secure Authentication using RFID
+✔ Interrupt-Driven Officer Control
+✔ Efficient and Fast Voting Process
+✔ Reduced Human Interaction
+✔ Compact and Optimized Embedded Design
+✔ User-Friendly Interface
+
+📌 APPLICATIONS
+
+➤ College Elections
+➤ Government Polling Systems
+➤ Smart Polling Booths
+
+  
+ 
+ 
+  
    
    
 
