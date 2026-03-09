@@ -153,8 +153,8 @@ Once activated:
 
 - Touchscreen-Based User Interface Enhancement – Replacing the conventional keypad with a graphical touchscreen interface to provide an intuitive, user-friendly, and efficient interaction experience.
 
-  
- 
+A video demonstration showing the implementation and working of the RFID-Based Smart Electronic Voting System can be viewed here:
+[https://youtu.be/JLXW0R7a_30?si=8XSTp-ghY_Q5eTsg]
  
   
    
