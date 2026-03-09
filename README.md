@@ -147,7 +147,7 @@ Once activated:
 - Government Polling Systems
 - Smart Polling Booths
 
-  🔮 FUTURE SCOPE
+🔮 FUTURE SCOPE
 
 - GSM-Based OTP Authentication for Officer Access – Upon external interrupt for officer mode, the officer enters a registered mobile number and receives a one-time password (OTP) via GSM for secure     authentication instead of using a PIN.
 
