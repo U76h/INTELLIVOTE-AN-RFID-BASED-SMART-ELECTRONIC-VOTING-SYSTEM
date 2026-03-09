@@ -134,12 +134,12 @@ Once activated:
 
 🚀 ADVANTAGES
 
-✔ Secure Authentication using RFID
-✔ Interrupt-Driven Officer Control
-✔ Efficient and Fast Voting Process
-✔ Reduced Human Interaction
-✔ Compact and Optimized Embedded Design
-✔ User-Friendly Interface
+-Secure Authentication using RFID
+- Interrupt-Driven Officer Control
+- Efficient and Fast Voting Process
+- Reduced Human Interaction
+- Compact and Optimized Embedded Design
+- User-Friendly Interface
 
 📌 APPLICATIONS
 
